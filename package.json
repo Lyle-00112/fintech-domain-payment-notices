@@ -1,0 +1,13 @@
+{
+  "name": "fintech-domain-payment-notices",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "domain": "tsx src/domain_setup.ts",
+    "serve": "tsx src/payment_server.ts",
+    "test": "tsx --test src/payment_notice.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {"zod": "^3.24.0"},
+  "devDependencies": {"@types/node": "^22.0.0", "tsx": "^4.19.0", "typescript": "^5.6.0"}
+}
